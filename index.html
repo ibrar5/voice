@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice To Text</title>
+</head>
+<body style="text-align: center;">
+    <div class="container">
+        <h1 class="page-header">Voice to Text</h1>
+        <Button class="btn btn-info" onclick="mic()" style="border-radius: 50%;"><img src="mic.png"></Button><br><br>
+        <textarea readonly name="text" id="voice" cols="50" rows="10"></textarea><br><br>
+        <button class="btn btn-info" onclick="cop()">Copy to Clipboard</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
